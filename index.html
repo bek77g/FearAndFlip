@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="icon" href="Icon.ico" />
+    <title>FlipAndHunger</title>
+    <link rel="stylesheet" href="src/css/style.css" />
+  </head>
+  <body>
+    <h1>Симулятор подбрасывания монет!</h1>
+    <div id="wrapper">
+      <div id="coin-container">
+        <div id="coin">
+          <img id="heads" src="src/images/eagle.png" alt="eagle" />
+          <img id="tails" src="src/images/reptile-tail.svg" alt="reptile" />
+        </div>
+      </div>
+      <div id="button-container">
+        <p id="notification">
+          Результате данного броска... <span id="result"></span>
+        </p>
+        <button id="flip">БРОСИТЬ</button>
+      </div>
+      <div id="stats-container">
+        <div id="heads-stats">
+          <p># ОРЁЛ: <span id="heads-stat"> </span></p>
+        </div>
+        <div id="tails-stats">
+          <p># РЕШКА: <span id="tails-stat"> </span></p>
+        </div>
+        <button id="reset-stats">СБРОСИТЬ</button>
+      </div>
+    </div>
+    <script src="src/js/script.js"></script>
+  </body>
+</html>
